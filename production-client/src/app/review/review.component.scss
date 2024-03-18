@@ -1,0 +1,62 @@
+
+
+
+.card-img-top{
+    border-radius: 50%;
+    vertical-align: middle;
+    padding: 20px;
+    height: 50%;
+    width: 50%;
+    object-position: center;
+    overflow: hidden;
+    margin-left: 10%;
+}
+    .card{
+        border-radius: 30px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    }
+
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+    
+
+@mixin desktop {
+  @media (min-width: 950px) { 
+    @content
+  }
+
+}
+
+
+
+
+ 
+       
+.swipe{
+   @include desktop()   { 
+     margin-left: 20%;
+     margin-right: 20%;
+    }
+    }
+   
+     
+
+
+.btn-primary{
+  border-radius: round($number: 0);
+  width: 120px;
+}
+
+
+.btn-primary:hover{
+    background-color: black;
+    border: none;
+}
+
+h3,h5{
+    color: rgb(0, 91, 228);
+}
+
+
