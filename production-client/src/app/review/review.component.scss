@@ -2,11 +2,11 @@
 
 
 .card-img-top{
-    border-radius: 50%;
+    border-radius: 60%;
     vertical-align: middle;
     padding: 20px;
-    height: 50%;
-    width: 50%;
+    height: 30%;
+    width: 40%;
     object-position: center;
     overflow: hidden;
     margin-left: 10%;
@@ -16,10 +16,13 @@
         box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
     }
 
-.card-body{
-    padding: 25px;
-    margin-top: -15px;
-}
+// .card-body{
+//     width: 600px; 
+//     border: 1px solid #acc781 ;
+//     border-radius: 8px;
+//     padding: 5px;
+//     margin-top: -15px;
+// }
     
 
 @mixin desktop {
@@ -29,6 +32,37 @@
 
 }
 
+@mixin mobile {
+  @media (max-width: 450px) { 
+    @content
+  }
+
+}
+
+
+.card-body{
+  @include mobile()   { 
+  width: 290px; 
+  border: 3px solid #e10d11d2 ;
+  border-radius: 8px;
+  padding: 5px;
+  margin-top: -15px;
+  }
+}
+
+
+.card-img-top{
+  @include mobile(){
+  border-radius: 60%;
+  vertical-align: middle;
+  padding: 20px;
+  height: 35%;
+  width: 50%;
+  object-position: center;
+  overflow: hidden;
+  margin-left: 10%;
+  }
+}
 
 
 
@@ -41,7 +75,7 @@
     }
     }
    
-     
+ .card    
 
 
 .btn-primary{
