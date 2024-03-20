@@ -3,11 +3,12 @@ import { RouterOutlet } from '@angular/router';
 import { CardBodyComponent } from './card-body/card-body.component';
 import { ReviewComponent } from './review/review.component';
 import { FixedSideNavComponent } from './fixed-side-nav/fixed-side-nav.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,CardBodyComponent,ReviewComponent,FixedSideNavComponent],
+  imports: [RouterOutlet,CardBodyComponent,ReviewComponent,FixedSideNavComponent,NavbarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
   schemas:[CUSTOM_ELEMENTS_SCHEMA]
