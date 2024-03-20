@@ -3,10 +3,13 @@ import { RouterOutlet } from '@angular/router';
 import { CardBodyComponent } from './card-body/card-body.component';
 import { ReviewComponent } from './review/review.component';
 import { FixedSideNavComponent } from './fixed-side-nav/fixed-side-nav.component';
+
+import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { NewsTickerComponent } from './news-ticker/news-ticker.component';
 import { SliderComponent } from './slider/slider.component';
+
 
 @Component({
   selector: 'app-root',
