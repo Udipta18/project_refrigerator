@@ -19,7 +19,9 @@
           >
             190$
           </button>
-          <button class="btn btn-primary">Book Now</button>
+          <button class="btn btn-primary"   data-bs-toggle="modal"
+          data-bs-target="#bookNowModal">
+            Details</button>
         </div>
       </div>
     </div>
@@ -42,7 +44,9 @@
           >
             190$
           </button>
-          <button class="btn btn-primary">Book Now</button>
+          <button class="btn btn-primary"   data-bs-toggle="modal"
+          data-bs-target="#bookNowModal">
+            Details</button>
         </div>
       </div>
     </div>
@@ -65,7 +69,9 @@
           >
             190$
           </button>
-          <button class="btn btn-primary">Book Now</button>
+          <button class="btn btn-primary"   data-bs-toggle="modal"
+          data-bs-target="#bookNowModal">
+            Details</button>
         </div>
       </div>
     </div>
@@ -88,7 +94,9 @@
           >
             190$
           </button>
-          <button class="btn btn-primary">Book Now</button>
+          <button class="btn btn-primary"   data-bs-toggle="modal"
+          data-bs-target="#bookNowModal">
+            Details</button>
         </div>
       </div>
     </div>
@@ -111,7 +119,9 @@
           >
             190$
           </button>
-          <button class="btn btn-primary">Book Now</button>
+          <button class="btn btn-primary"   data-bs-toggle="modal"
+          data-bs-target="#bookNowModal">
+            Details</button>
         </div>
       </div>
     </div>
@@ -134,7 +144,9 @@
           >
             190$
           </button>
-          <button class="btn btn-primary">Book Now</button>
+          <button class="btn btn-primary"   data-bs-toggle="modal"
+          data-bs-target="#bookNowModal">
+            Details</button>
         </div>
       </div>
     </div>
@@ -193,6 +205,95 @@
           Close
         </button>
         <a class="btn btn-primary" href="tel: +919123775955">Call for booking</a>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+</div>
+
+
+<div
+  class="modal fade"
+  id="bookNowModal"
+  tabindex="-1"
+  aria-labelledby="bookNowModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="bookNowModalLabel">Services We Provide</h1>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body" style="height: 60%;">
+        <div class="container-fluid pb-5">
+          <div class="row mb-5">
+            <div class="col-md-5 mr border border-dark rounded-4">
+              <p><b>Split Ac service/Repair</b></p>
+              <p style="margin-top: 0%;font-style: italic;">Select For Gas Filling,Not Working,Etc......
+                <a href="#" style="text-decoration:none">
+                  <span class="icon"  (click)="myFunction()">.....➡️</span>
+                </a></p>
+              <i></i>
+            </div>
+             <div class="col-md-5 border border-dark rounded-4">
+              <p><b>Window Ac service/Repair</b></p>
+              <p style="margin-top: 0%;font-style: italic;">Select For Gas Filling,Not Working,Etc......
+                <a href="#" style="text-decoration:none">
+                  <span class="icon"  (click)="myFunction()">.....➡️</span>
+                </a></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-5 mr border border-dark rounded-4">
+              <p><b>Ac installation/uninstallation</b></p>
+              <p style="margin-top: 0%;font-style: italic;">Select For install/Uninstall ac
+                <a href="#" style="text-decoration:none">
+                  <span class="icon"  (click)="myFunction()">.....➡️</span>
+                </a></p>
+            </div>
+             <div class="col-md-5 border border-dark rounded-4">
+              <p><b>Annual Maintanance (AM)</b></p>
+              <p style="margin-top: 0%;font-style: italic;">Select For Yearly Service Contact
+                <a href="#" style="text-decoration:none">
+                  <span class="icon"  (click)="myFunction()">.....➡️</span>
+                </a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid d-flex justify-content-center align-items-center">
+          <a class=" btn btn-primary" id="myButton" href="tel: +919123775955" (click)="bookNowBlur()">book now</a>
+           </div>
+      </div>
+      <div class="abc">
+        <div class=" d-flex align-items-center justify-content-center" style="font-size: 1.6rem;"> why us?</div>
+        <div class="group">
+          <div class="item">
+            <b>10+</b><br>
+            <span>years of experience</span>
+          </div>
+          <div class="item">
+            <b>500+</b><br>
+            <span>happy users</span>
+          </div>
+          <div class="item">
+            <b>50+</b><br>
+            <span>verified service provider</span>
+          </div>
+        </div>
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Close
+        </button>
+        <a class="btn btn-primary" href="tel: +919123775955">Call for booking</a> -->
       </div>
     </div>
   </div>
