@@ -1,4 +1,22 @@
 
+@mixin mobile {
+    @media (max-width: 450px) { 
+      @content
+    }
+  
+  }
+
+  .mr{
+    margin-right: 1.5rem !important;
+    margin-left: 1.5rem !important;
+  }
+
+  .mr{
+    @include mobile(){
+     margin-right: 0rem !important;
+     margin-left: 0rem !important;
+    }
+  }
 
 
 .card-img-top{
@@ -27,12 +45,41 @@
 .btn-success{
     width: 60px;
 }
-.btn-primary:hover{
-    background-color: black;
+// .btn-primary:hover{
+//     background-color: black;
+//     border: none;
+// }
+.btn-primary:focus{
+    background-color: rgb(12, 201, 91);
     border: none;
+}
+
+.btn-primary:active{
+    background-color: yellow;
 }
 
 h3,h5{
     color: rgb(0, 91, 228);
+}
+
+.abc{
+    height: 60%;
+    background-color: #f4f4f4;
+    //border-radius: 50px;
+}
+
+
+
+ .group {
+    align-items: flex-start;
+    counter-reset: item;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+ .item {
+    margin: 0 1.5rem;
+    text-align: center;
 }
 

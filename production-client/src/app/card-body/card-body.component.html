@@ -3,9 +3,9 @@
   <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
     <div class="col">
       <div class="card">
-        <img src="assets/img/img_client.webp" class="card-img-top" alt="..." />
+        <img src="assets/img/AC_INSTALLATION1.jpg" class="card-img-top" alt="..." />
         <div class="card-body">
-          <h5 class="card-title">AC SERVICING</h5>
+          <h5 class="card-title">AC INSTALLATION & SERVICING</h5>
           <p class="card-text">✅ Door step avaivilaty.</p>
           <p class="card-text">✅ hustle free service.</p>
           <p class="card-text">✅ one stop solution for all problems.</p>
@@ -19,16 +19,18 @@
           >
             190$
           </button>
-          <button class="btn btn-primary">Book Now</button>
+          <button class="btn btn-primary"   data-bs-toggle="modal" (click)="detailsClick('ac')"
+          data-bs-target="#bookNowModal">
+            Details</button>
         </div>
       </div>
     </div>
 
     <div class="col">
       <div class="card">
-        <img src="assets/img/img_client.webp" class="card-img-top" alt="..." />
+        <img src="assets/img/WaterPurifier-Service1.jpg" class="card-img-top" alt="..." />
         <div class="card-body">
-          <h5 class="card-title">AC SERVICING</h5>
+          <h5 class="card-title">Water Purifier Repair</h5>
           <p class="card-text">✅ Door step avaivilaty.</p>
           <p class="card-text">✅ hustle free service.</p>
           <p class="card-text">✅ one stop solution for all problems.</p>
@@ -42,16 +44,18 @@
           >
             190$
           </button>
-          <button class="btn btn-primary">Book Now</button>
+          <button class="btn btn-primary"   data-bs-toggle="modal" (click)="detailsClick('wp')"
+          data-bs-target="#bookNowModal">
+            Details</button>
         </div>
       </div>
     </div>
 
     <div class="col">
       <div class="card">
-        <img src="assets/img/img_client.webp" class="card-img-top" alt="..." />
+        <img src="assets/img/washing_machine1.jpg" class="card-img-top" alt="..." />
         <div class="card-body">
-          <h5 class="card-title">AC SERVICING</h5>
+          <h5 class="card-title">Washing Machine Servicing</h5>
           <p class="card-text">✅ Door step avaivilaty.</p>
           <p class="card-text">✅ hustle free service.</p>
           <p class="card-text">✅ one stop solution for all problems.</p>
@@ -65,16 +69,18 @@
           >
             190$
           </button>
-          <button class="btn btn-primary">Book Now</button>
+          <button class="btn btn-primary"   data-bs-toggle="modal" (click)="detailsClick('wmachine')"
+          data-bs-target="#bookNowModal">
+            Details</button>
         </div>
       </div>
     </div>
 
     <div class="col">
       <div class="card">
-        <img src="assets/img/img_client.webp" class="card-img-top" alt="..." />
+        <img src="assets/img/FRIDGE_SERVICE1.jpg" class="card-img-top" alt="..." />
         <div class="card-body">
-          <h5 class="card-title">AC SERVICING</h5>
+          <h5 class="card-title">Refrigerator & Fridge SERVICING</h5>
           <p class="card-text">✅ Door step avaivilaty.</p>
           <p class="card-text">✅ hustle free service.</p>
           <p class="card-text">✅ one stop solution for all problems.</p>
@@ -88,16 +94,18 @@
           >
             190$
           </button>
-          <button class="btn btn-primary">Book Now</button>
+          <button class="btn btn-primary"   data-bs-toggle="modal" (click)="detailsClick('fridge')"
+          data-bs-target="#bookNowModal">
+            Details</button>
         </div>
       </div>
     </div>
 
     <div class="col">
       <div class="card">
-        <img src="assets/img/img_client.webp" class="card-img-top" alt="..." />
+        <img src="assets/img/TV_SERVICING1.jpg" class="card-img-top" alt="..." />
         <div class="card-body">
-          <h5 class="card-title">AC SERVICING</h5>
+          <h5 class="card-title">TV SERVICING</h5>
           <p class="card-text">✅ Door step avaivilaty.</p>
           <p class="card-text">✅ hustle free service.</p>
           <p class="card-text">✅ one stop solution for all problems.</p>
@@ -111,16 +119,18 @@
           >
             190$
           </button>
-          <button class="btn btn-primary">Book Now</button>
+          <button class="btn btn-primary"   data-bs-toggle="modal" (click)="detailsClick('tv')"
+          data-bs-target="#bookNowModal">
+            Details</button>
         </div>
       </div>
     </div>
 
     <div class="col">
       <div class="card">
-        <img src="assets/img/img_client.webp" class="card-img-top" alt="..." />
+        <img src="assets/img/kitchen3.jpg" class="card-img-top" alt="..." />
         <div class="card-body">
-          <h5 class="card-title">AC SERVICING</h5>
+          <h5 class="card-title">Kitchen Appliances SERVICING</h5>
           <p class="card-text">✅ Door step avaivilaty.</p>
           <p class="card-text">✅ hustle free service.</p>
           <p class="card-text">✅ one stop solution for all problems.</p>
@@ -134,7 +144,9 @@
           >
             190$
           </button>
-          <button class="btn btn-primary">Book Now</button>
+          <button class="btn btn-primary"   data-bs-toggle="modal" (click)="detailsClick('kchen')"
+          data-bs-target="#bookNowModal">
+            Details</button>
         </div>
       </div>
     </div>
@@ -193,6 +205,278 @@
           Close
         </button>
         <a class="btn btn-primary" href="tel: +919123775955">Call for booking</a>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+</div>
+
+
+<div
+  class="modal fade"
+  id="bookNowModal"
+  tabindex="-1"
+  aria-labelledby="bookNowModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="bookNowModalLabel">Services We Provide</h1>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body" style="height: 60%;">
+      @if (ac) {<div  class="container-fluid pb-5">
+        <div class="row mb-5">
+          <div class="col-md-5 mr border border-dark rounded-4">
+            <p><b>Split Ac service/Repair</b></p>
+            <p style="margin-top: 0%;font-style: italic;">Select For Gas Filling,Not Working,Etc......
+              <a href="#" style="text-decoration:none">
+                <span class="icon"  (click)="myFunction()">.....➡️</span>
+              </a></p>
+            <i></i>
+          </div>
+           <div class="col-md-5 border border-dark rounded-4">
+            <p><b>Window Ac service/Repair</b></p>
+            <p style="margin-top: 0%;font-style: italic;">Select For Gas Filling,Not Working,Etc......
+              <a href="#" style="text-decoration:none">
+                <span class="icon"  (click)="myFunction()">.....➡️</span>
+              </a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5 mr border border-dark rounded-4">
+            <p><b>Ac installation/uninstallation</b></p>
+            <p style="margin-top: 0%;font-style: italic;">Select For install/Uninstall ac
+              <a href="#" style="text-decoration:none">
+                <span class="icon"  (click)="myFunction()">.....➡️</span>
+              </a></p>
+          </div>
+           <div class="col-md-5 border border-dark rounded-4">
+            <p><b>Annual Maintanance (AM)</b></p>
+            <p style="margin-top: 0%;font-style: italic;">Select For Yearly Service Contact
+              <a href="#" style="text-decoration:none">
+                <span class="icon"  (click)="myFunction()">.....➡️</span>
+              </a></p>
+          </div>
+        </div>
+      </div>}  
+
+      @if (wp)  { <div class="container-fluid pb-5">
+          <div class="row mb-5">
+            <div class="col-md-5 mr border border-dark rounded-4">
+              <p><b>Repair and Service</b></p>
+              <p style="margin-top: 0%;font-style: italic;">Select For All types of repair and filters
+                <a href="#" style="text-decoration:none">
+                  <span class="icon"  (click)="myFunctionwp()">.....➡️</span>
+                </a></p>
+              <i></i>
+            </div>
+             <div class="col-md-5 border border-dark rounded-4">
+              <p><b>Installation/Uninstallation</b></p>
+              <p style="margin-top: 0%;font-style: italic;">Select For install/uninstall the water purifier
+                <a href="#" style="text-decoration:none">
+                  <span class="icon"  (click)="myFunctionwp()">.....➡️</span>
+                </a></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-5 mr border border-dark rounded-4">
+              <p><b>Annual Maintanance (AM)</b></p>
+              <p style="margin-top: 0%;font-style: italic;">Select For Yearly Service Contact
+                <a href="#" style="text-decoration:none">
+                  <span class="icon"  (click)="myFunctionwp()">.....➡️</span>
+                </a></p>
+            </div>
+             <!-- <div class="col-md-5 border border-dark rounded-4">
+              
+            </div> -->
+          </div>
+        </div> }
+
+        @if (wmachine)  { <div class="container-fluid pb-5">
+          <div class="row mb-5">
+            <div class="col-md-5 mr border border-dark rounded-4">
+              <p><b>Full Automatic</b></p>
+              <p style="margin-top: 0%;font-style: italic;"> select for repair & spare part service
+                <a href="#" style="text-decoration:none">
+                  <span class="icon"  (click)="myFunctionwp()">.....➡️</span>
+                </a></p>
+              <i></i>
+            </div>
+             <div class="col-md-5 border border-dark rounded-4">
+              <p><b>Semi Automatic</b></p>
+              <p style="margin-top: 0%;font-style: italic;">select for repair & spare part service
+                <a href="#" style="text-decoration:none">
+                  <span class="icon"  (click)="myFunctionwp()">.....➡️</span>
+                </a></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-5 mr border border-dark rounded-4">
+              <p><b>Install/Uninstall</b></p>
+              <p style="margin-top: 0%;font-style: italic;">Select For Install Uninstall Washing Machine
+                <a href="#" style="text-decoration:none">
+                  <span class="icon"  (click)="myFunctionwp()">.....➡️</span>
+                </a></p>
+            </div>
+             <!-- <div class="col-md-5 border border-dark rounded-4">
+              
+            </div> -->
+          </div>
+        </div> }
+
+        @if (fridge)  { <div class="container-fluid pb-5">
+          <div class="row mb-5">
+            <div class="col-md-5 mr border border-dark rounded-4">
+              <p><b>Repair and Service</b></p>
+              <p style="margin-top: 0%;font-style: italic;">select for repair & spare part service
+                <a href="#" style="text-decoration:none">
+                  <span class="icon"  (click)="myFunctionwp()">.....➡️</span>
+                </a></p>
+              <i></i>
+            </div>
+             <div class="col-md-5 border border-dark rounded-4">
+              <p><b>Installation/Uninstallation</b></p>
+              <p style="margin-top: 0%;font-style: italic;">Select For install/uninstall the Refrigerator
+                <a href="#" style="text-decoration:none">
+                  <span class="icon"  (click)="myFunctionwp()">.....➡️</span>
+                </a></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-5 mr border border-dark rounded-4">
+              <p><b>Annual Maintanance (AM)</b></p>
+              <p style="margin-top: 0%;font-style: italic;">Select For Yearly Service Contact
+                <a href="#" style="text-decoration:none">
+                  <span class="icon"  (click)="myFunctionwp()">.....➡️</span>
+                </a></p>
+            </div>
+             <!-- <div class="col-md-5 border border-dark rounded-4">
+              
+            </div> -->
+          </div>
+        </div> }
+
+       
+
+        
+
+        <div class="container-fluid d-flex justify-content-center align-items-center">
+          <a class=" btn btn-primary" id="myButton" href="tel: +919123775955" (click)="bookNowBlur()">book now</a>
+           </div>
+      </div>
+      <div class="abc">
+        <div class=" d-flex align-items-center justify-content-center" style="font-size: 1.6rem;"> why us?</div>
+        <div class="group">
+          <div class="item">
+            <b>10+</b><br>
+            <span>years of experience</span>
+          </div>
+          <div class="item">
+            <b>500+</b><br>
+            <span>happy users</span>
+          </div>
+          <div class="item">
+            <b>50+</b><br>
+            <span>verified service provider</span>
+          </div>
+        </div>
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Close
+        </button>
+        <a class="btn btn-primary" href="tel: +919123775955">Call for booking</a> -->
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+<div
+  class="modal fade"
+  id="wpModal"
+  tabindex="-1"
+  aria-labelledby="wpModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="wpModalLabel">Need a RO Technician for: </h1>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body" style="height: 60%;">
+        <div class="container-fluid pb-5">
+          <div class="row mb-5">
+            <div class="col-md-5 mr border border-dark rounded-4">
+              <p><b>Repair and Service</b></p>
+              <p style="margin-top: 0%;font-style: italic;">Select For All types of repair and filters
+                <a href="#" style="text-decoration:none">
+                  <span class="icon"  (click)="myFunctionwp()">.....➡️</span>
+                </a></p>
+              <i></i>
+            </div>
+             <div class="col-md-5 border border-dark rounded-4">
+              <p><b>Installation/Uninstallation</b></p>
+              <p style="margin-top: 0%;font-style: italic;">Select For install/uninstall the water purifier
+                <a href="#" style="text-decoration:none">
+                  <span class="icon"  (click)="myFunctionwp()">.....➡️</span>
+                </a></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-5 mr border border-dark rounded-4">
+              <p><b>Annual Maintanance (AM)</b></p>
+              <p style="margin-top: 0%;font-style: italic;">Select For Yearly Service Contact
+                <a href="#" style="text-decoration:none">
+                  <span class="icon"  (click)="myFunctionwp()">.....➡️</span>
+                </a></p>
+            </div>
+             <!-- <div class="col-md-5 border border-dark rounded-4">
+              
+            </div> -->
+          </div>
+        </div>
+
+        <div class="container-fluid d-flex justify-content-center align-items-center">
+          <a class=" btn btn-primary" id="myButton" href="tel: +919123775955" (click)="bookNowBlur()">book now</a>
+           </div>
+      </div>
+      <div class="abc">
+        <div class=" d-flex align-items-center justify-content-center" style="font-size: 1.6rem;"> why us?</div>
+        <div class="group">
+          <div class="item">
+            <b>10+</b><br>
+            <span>years of experience</span>
+          </div>
+          <div class="item">
+            <b>500+</b><br>
+            <span>happy users</span>
+          </div>
+          <div class="item">
+            <b>50+</b><br>
+            <span>verified service provider</span>
+          </div>
+        </div>
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Close
+        </button>
+        <a class="btn btn-primary" href="tel: +919123775955">Call for booking</a> -->
       </div>
     </div>
   </div>
