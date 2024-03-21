@@ -6,7 +6,7 @@ import { FixedSideNavComponent } from './fixed-side-nav/fixed-side-nav.component
 
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { FooterComponent } from './footer/footer.component';
+
 import { NewsTickerComponent } from './news-ticker/news-ticker.component';
 import { SliderComponent } from './slider/slider.component';
 
