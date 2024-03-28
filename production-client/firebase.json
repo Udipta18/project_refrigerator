@@ -8,8 +8,16 @@
     ],
     "rewrites": [
       {
-        "source": "**",
+        "source": "/sitemap",
+          "destination": "/sitemap.xml"
+      },{
+
+
+        "source": "/",
         "destination": "/index.html"
+      
+          
+      
       }
     ]
   }

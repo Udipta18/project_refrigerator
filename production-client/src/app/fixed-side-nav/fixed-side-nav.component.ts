@@ -20,7 +20,7 @@ export class FixedSideNavComponent {
   constructor(private sanitizer: DomSanitizer) {}
   faPhone=faPhone;
 
-  mailtoHeader = "mailto:dasdsa1208@gmail.com?";
+  mailtoHeader = "mailto:royparag206@gmail.com?";
   subjectProp = "subject=";
   bodyProp = "body=";
   amp = "&amp;";

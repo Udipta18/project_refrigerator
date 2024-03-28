@@ -28,7 +28,10 @@ export class CardBodyComponent {
     
     console.log(el);
   }
-
+  detailsClic(sgtr:any){
+    console.log(sgtr);
+    this.wp=true
+  }
   myFunctionwp(){
     let el=this.document.getElementById("myButton");
     
@@ -47,6 +50,7 @@ export class CardBodyComponent {
   }
 
   detailsClick(abc:any){
+    console.log('inside method');
     console.log(abc);
     if(abc=='wp'){
       this.wp=true;

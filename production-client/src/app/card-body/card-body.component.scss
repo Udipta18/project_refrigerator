@@ -45,6 +45,12 @@
 .btn-success{
     width: 60px;
 }
+
+.btn-success{
+    @include mobile(){
+        width: 80px;
+    }
+}
 // .btn-primary:hover{
 //     background-color: black;
 //     border: none;
